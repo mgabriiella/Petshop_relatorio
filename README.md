@@ -18,20 +18,30 @@ Este repositório contém scripts SQL destinados à criação e manipulação de
 
 ## 🚀 Como Utilizar  
 
-1️⃣ **Clone o repositório**:  
+1. **Clone o repositório**:
+   
+   ```bash 
    git clone https://github.com/mgabriiella/Petshop_relatorio.git
    
-2️⃣ **Acesse o diretório do projeto**:  
+2️. **Acesse o diretório do projeto**:
+
+   ```bash
    cd Petshop_relatorio
    
-3️⃣ **Criação da estrutura do banco de dados (DDL)**:  
+3. ## Criação da estrutura do banco de dados (DDL):
+
+   ```bash
    - Abra o **MySQL Workbench** ou outro cliente MySQL de sua preferência.  
    - Carregue e execute o arquivo `Petshop-Script-DDL.sql`.  
 
-4️⃣ **Inserção de dados iniciais (DML)**:  
+4️. **Inserção de dados iniciais (DML)**:
+
+   ```bash
    - Carregue e execute o arquivo `Petshop-Script-DML-Inserts.sql`.  
 
-5️⃣ **Execução das consultas para relatórios (DQL)**:  
+5️. **Execução das consultas para relatórios (DQL)**:
+
+   ```bash
    - Carregue e execute o arquivo `Petshop-Script-DQL.sql` para obter informações detalhadas do banco de dados.  
 
 ## 📝 Funcionalidades  
