@@ -1,33 +1,47 @@
-Relatório do Banco de Dados do Petshop
-Este repositório contém scripts SQL destinados à criação e manipulação de um banco de dados para um petshop. Os scripts abrangem a definição da estrutura do banco (DDL), inserção de dados (DML) e consultas para extração de informações (DQL).
+# 📊 Relatório do Banco de Dados do Petshop  
 
-🗂️ Estrutura do Repositório
-Petshop-Script-DDL.sql: Script para criação das tabelas e definição das relações do banco de dados.
-Petshop-Script-DML-Inserts.sql: Script contendo instruções de inserção de dados nas tabelas.
-Petshop-Script-DQL.sql: Script com consultas SQL para extração e análise dos dados armazenados.
+Este repositório contém scripts SQL destinados à criação e manipulação de um banco de dados para um petshop. Os scripts incluem:
 
-🛠️ Tecnologias Utilizadas
-MySQL: Sistema de gerenciamento de banco de dados relacional utilizado para executar os scripts SQL.
+- **Definição da estrutura do banco de dados (DDL)**  
+- **Inserção de dados nas tabelas (DML)**  
+- **Consultas para extração de informações e relatórios (DQL)**  
 
-🚀 Como Utilizar
-Clone o repositório:
-git clone https://github.com/mgabriiella/Petshop_relatorio.git
-Acesse o diretório do projeto:
-cd Petshop_relatorio
-Execute o script DDL para criar a estrutura do banco de dados:
+## 🗂️ Estrutura do Repositório  
 
-Abra o MySQL Workbench ou outro cliente MySQL de sua preferência.
-Carregue e execute o conteúdo do arquivo Petshop-Script-DDL.sql.
-Execute o script DML para inserir os dados iniciais:
+- **`Petshop-Script-DDL.sql`** → Criação das tabelas e definição dos relacionamentos.  
+- **`Petshop-Script-DML-Inserts.sql`** → Inserção de dados nas tabelas.  
+- **`Petshop-Script-DQL.sql`** → Consultas para extração e análise de dados.  
 
-Carregue e execute o conteúdo do arquivo Petshop-Script-DML-Inserts.sql.
-Realize as consultas DQL conforme necessário:
-Carregue o arquivo Petshop-Script-DQL.sql e execute as consultas desejadas para obter relatórios e informações específicas.
+## 🛠️ Tecnologias Utilizadas  
 
-📋 Funcionalidades
-Definição da estrutura do banco de dados: Criação de tabelas como Clientes, Pets, Serviços, entre outras, com seus respectivos relacionamentos.
-Inserção de dados: População das tabelas com dados exemplares para testes e validações.
-Consultas para relatórios: Exemplos de consultas para extrair informações relevantes, como:
-Lista de clientes e seus respectivos pets.
-Histórico de serviços realizados.
-Relatórios financeiros baseados nos serviços prestados.
+- **MySQL** → Sistema de gerenciamento de banco de dados relacional utilizado para executar os scripts SQL.  
+
+## 🚀 Como Utilizar  
+
+1️⃣ **Clone o repositório**:  
+   git clone https://github.com/mgabriiella/Petshop_relatorio.git
+   
+2️⃣ **Acesse o diretório do projeto**:  
+   cd Petshop_relatorio
+   
+3️⃣ **Criação da estrutura do banco de dados (DDL)**:  
+   - Abra o **MySQL Workbench** ou outro cliente MySQL de sua preferência.  
+   - Carregue e execute o arquivo `Petshop-Script-DDL.sql`.  
+
+4️⃣ **Inserção de dados iniciais (DML)**:  
+   - Carregue e execute o arquivo `Petshop-Script-DML-Inserts.sql`.  
+
+5️⃣ **Execução das consultas para relatórios (DQL)**:  
+   - Carregue e execute o arquivo `Petshop-Script-DQL.sql` para obter informações detalhadas do banco de dados.  
+
+## 📝 Funcionalidades  
+
+- **Definição da estrutura do banco de dados** → Criação de tabelas como `Clientes`, `Pets`, `Serviços`, entre outras.  
+- **Inserção de dados** → População das tabelas com dados iniciais para testes e validações.  
+- **Consultas para relatórios** → Exemplos de consultas para extrair informações relevantes:  
+  - 📌 Lista de clientes e seus respectivos pets.  
+  - 📌 Histórico de serviços prestados.  
+  - 📌 Relatórios financeiros baseados nos serviços realizados.  
+
+
+
